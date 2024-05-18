@@ -6,9 +6,11 @@ public class Program
 	{
 		Hero heroOne = new Hero();
 		Hero heroTwo = new Hero();
+		Hero heroThree = new Hero():
 		
 		heroOne.health = 2;
 		heroOne.powerLevel = 5;
+		heroOne.classification = 
 		
 		heroTwo.health = 3;
 		heroTwo.powerLevel = 1;
