@@ -26,5 +26,22 @@ public class ClassWithFunctions
     public void RunFunction()
     {
         Console.WriteLine("Running Function");
+        
+        public int myAge = 10+15;
+        Console.WriteLine(myAge);
+        
+        public int A = 60;
+        public int B = 100;
+        Console.WriteLine(A % B);
+        
+        public int sub1 = 60-35;
+        Console.WriteLine(sub1);
+
+        public int date = 16;
+        date++;
+        Console.WriteLine(date);
+        
+        
+        
     }
 }  
