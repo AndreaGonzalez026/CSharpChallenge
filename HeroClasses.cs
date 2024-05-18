@@ -8,12 +8,12 @@ public class Program
 		Hero heroTwo = new Hero();
 		Hero heroThree = new Hero();
 		
-		heroOne.health = 2;
-		heroOne.powerLevel = 5;
+		heroOne.health = 5;
+		heroOne.powerLevel = 3;
 		heroOne.specialAttack = "Plasma Explosion";
 		
 		heroTwo.health = 3;
-		heroTwo.powerLevel = 1;
+		heroTwo.powerLevel = 9;
 		heroTwo.specialAttack = "Laser Vision";
 
 		heroThree.health = 6;
