@@ -1,16 +1,11 @@
-//Use this file to store your work to demonstrate your understanding of operators
-//Make sure your work is different from the instructors examples or your peers
 using System;
 					
 public class Program
-{
-	public Hero heroOne;
-	public Hero heroTwo;
-	
-	public void Main()
+{	
+	public static void Main()
 	{
-		heroOne = new Hero();
-		heroTwo = new Hero();
+		Hero heroOne = new Hero();
+		Hero heroTwo = new Hero();
 		
 		heroOne.health = 2;
 		heroOne.powerLevel = 5;
@@ -18,11 +13,11 @@ public class Program
 		heroTwo.health = 3;
 		heroTwo.powerLevel = 1;
 		
-		Console.WriteLine(heroOne.health);
-		Console.WriteLine(heroOne.powerLevel);
+		Console.WriteLine("Hero One Health:" + heroOne.health);
+		Console.WriteLine("Hero One Health:" + heroOne.powerLevel);
 		
-		Console.WriteLine(heroTwo.health);
-		Console.WriteLine(heroTwo.powerLevel);
+		Console.WriteLine("Hero Two Health:" + heroTwo.health);
+		Console.WriteLine("Hero Two Health:" + heroTwo.powerLevel);
 	}
 }
 
